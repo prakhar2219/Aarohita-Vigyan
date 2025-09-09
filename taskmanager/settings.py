@@ -127,8 +127,9 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000"
+    "https://taskmanager-frontend-95avcjf2k-iconics.vercel.app"
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATIC_URL = "/static/"
+CORS_ALLOW_ALL_ORIGINS = True
